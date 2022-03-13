@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <script src='../js/codigo.js'></script>
-</head>
-<body>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="../js/codigo.js"></script>
+  </head>
+  <body>
+    <p onclick="clickParrafo()">Párrafo fuera de la tabla</p>
+    <table border="2" onclick="clickParrafo()">
+      <tr>
+        <td>
+          <p>Párrafo dentro de la primera tabla.</p>
+        </td>
+        <td>
+          <p>Párrafo dentro de la primera tabla.</p>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <table border="2" onclick="clickParrafoSegundaTabla()">
+      <tr>
+        <td>
+          <p>Párrafo dentro de la segunda tabla.</p>
+        </td>
+        <td>
+          <p>Párrafo dentro de la segunda tabla.</p>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
